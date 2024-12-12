@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Contact Us</title>
+
+</head>
+
+
+
+<body style= "text-align: center; background-color: Pink">
+
+<!--Your HTML tags will start here-->
+
+ <h1>Grayce Estates</h1>
+ 
+ <a href="index.html">Home</a>
+ &nbsp; &nbsp; &nbsp; &nbsp;
+  <a href="services.html">Services</a>
+ &nbsp; &nbsp; &nbsp; &nbsp;
+ <a href="contact.html">Contact Us</a>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: Gray;
+        }
+        .form-container {
+            background-color: black;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .form-container input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .form-container select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .form-container textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: white;
+            height: 100px;
+        }
+        .form-container input[type="radio"] {
+            margin-right: 5px;
+        }
+        .form-container .buttons input[type="submit"],
+        .form-container .buttons input[type="reset"] {
+            background-color: White;
+            color: Black;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .form-container .buttons input[type="reset"] {
+            margin-right: 0;
+        }
+    </style>
+
+ <div class="form-container">
+        <form style="background-color:Black;">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name">
+
+            <label for="service">Service Interest:</label>
+            <select id="service" name="shoe-brand">
+                <option value="Buying">Buying</option>
+                <option value="Selling">Selling</option>
+                <option value="Renting">Renting</option>
+                <option value="Appraisal">Appraisal</option>
+            </select>
+
+            <label>How did you hear about us?:</label>
+            <input type="radio" id="Google" name="Google" value="1">
+            <label for="year-1">Google</label>
+            <input type="radio" id="Instagram" name="Instagram" value="2">
+            <label for="year-2">Instagram</label>
+            <input type="radio" id="year-3" name="years" value="3">
+            <label for="year-3">Facebook</label>
+            <input type="radio" id="year-4" name="years" value="4">
+            <label for="year-4">Through a friend</label>
+
+            <label for="comments">If through a friend, let us know who:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <div class="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+
+ <p><a href="mailto:mccarroa0649@student.faytechcc.edu.com">Contact Us</a></p>
+ 
+ 
+ </br>
+Copyrights &#169;2021
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
